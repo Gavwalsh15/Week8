@@ -26,10 +26,16 @@ public class CreateFile
         catch (IOException e) {
             e.printStackTrace();
         }
-        while (inputFile.hasNext())
-        {
-            String str = inputFile.nextLine();
-            System.out.println(str);
+        try {
+            while (inputFile.hasNext()) {
+                String str = inputFile.nextLine();
+                System.out.println(str);
+            }
         }
+        catch(NullPointerException e)
+        {
+            e.printStackTrace();
+        }
+
     }
 }
