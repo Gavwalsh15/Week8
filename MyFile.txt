@@ -1,1 +1,36 @@
+<<<<<<< HEAD
 CillianCillian Gavin Test 2
+=======
+1) Test by running your code and see if it identifies where the file instance will be
+created.
+a. Commit our code if it works and push to a new repository on your GitHub
+account.
+b. Look at some of the functionality of the “File” class in the API. See can you
+get the path of the file. Have a look at some other features like length, exists
+etc.
+2) Next, you want to write some data to your file.
+a. Create a new branch in your repository.
+b. Consider using the FileWriter class to write some data and then close the file.
+Have a look at the API to see how FileWriter could be used with your File
+Object.
+c. Do you need to handle any exceptions?
+d. Change the data being stored to some new data and run again.
+e. What happened to the old data?
+3) Rewrite the application so that we don’t lose data each time the application is run.
+Change it so that we can append new data each time the application is run.
+a. Commit our code if it works and push to your repository on your GitHub
+account.
+b. Now that we are appending data each time, notice that the data is not being
+formatted, no spacing or new lines used on each entry.
+4) Create a new branch in your repository.
+a. Add some code to format how your data is written to the file. Consider using
+the PrintWriter class.
+b. Commit our code if it works and push to your repository on your GitHub
+account.
+5) Create a new branch in your repository and design a new application.
+a. Your new class will prompt the user to enter a filename, then open the file
+and print the information to the screen. (Assume the file is in your working
+directory)
+b. Commit our code if it works and push to a new repository on your GitHub
+account
+>>>>>>> UserPromt
